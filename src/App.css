@@ -1,0 +1,74 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 80px;
+}
+
+.App-header {
+  background-color: #222;
+  height: 150px;
+  padding: 20px;
+  color: white;
+}
+
+.App-title {
+  font-size: 1.5em;
+}
+
+.App-intro {
+  font-size: large;
+}
+
+@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
+
+input{
+  width:70%;
+  margin-top:10px;
+  margin-bottom:-5px;
+}
+.container{
+  display: block;
+  width:700px;
+  margin:20px auto;
+  height: 370px;
+  border:1px solid silver;
+  overflow: scroll;
+  border-radius: 10px;
+}
+.card{
+  background:ghostwhite;
+  width:189px;
+  display: block;
+  margin:10px auto;
+  padding:10px;
+  float:left;
+  margin:10px;
+  box-shadow: 9px -1px 21px -15px rgba(0,0,0,0.75);
+}
+.profilePic{
+
+    border-radius: 50%;
+}
+.genderPic{
+  width:20px;
+  height:20px;
+  margin-bottom:-15px;
+  float:right;
+}
+.emailText{
+  font-size: 10px;
+  float:left;
+}
+.profileTitle{
+  margin-bottom:1%;
+  text-align:left;
+}
+.loadButton{
+  width:100%;
+}

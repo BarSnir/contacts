@@ -1,0 +1,38 @@
+ "results": [
+    {
+      "gender": "male",
+      "name": {
+        "title": "mr",
+        "first": "brayden",
+        "last": "vargas"
+      },
+      "location": {
+        "street": "1725 e north st",
+        "city": "elko",
+        "state": "alaska",
+        "postcode": 74407
+      },
+      "email": "brayden.vargas@example.com",
+      "login": {
+        "username": "blackladybug912",
+        "password": "jack",
+        "salt": "IEWrtvvM",
+        "md5": "4ee5e8caf326942cc04dac50a6dd5991",
+        "sha1": "1d5e8baf3483d4a108cad40ad19473634221b723",
+        "sha256": "79ade1ec2f7984afe3ff820e3dbd0f8ca3c03af47206136f1d024f4f87a9835e"
+      },
+      "dob": "1993-07-25 15:47:37",
+      "registered": "2012-08-02 08:55:55",
+      "phone": "(281)-974-7098",
+      "cell": "(514)-429-3336",
+      "id": {
+        "name": "SSN",
+        "value": "493-42-3672"
+      },
+      "picture": {
+        "large": "https://randomuser.me/api/portraits/men/83.jpg",
+        "medium": "https://randomuser.me/api/portraits/med/men/83.jpg",
+        "thumbnail": "https://randomuser.me/api/portraits/thumb/men/83.jpg"
+      },
+      "nat": "US"
+    },
