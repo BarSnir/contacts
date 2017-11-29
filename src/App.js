@@ -6,6 +6,7 @@ import './App.css';
 import Row from 'muicss/lib/react/row';
 import Col from 'muicss/lib/react/col';
 import Input from 'muicss/lib/react/input';
+import Button from 'muicss/lib/react/button';
 
 
 
@@ -143,9 +144,10 @@ render() {
           placeholder="Search" />
 
         <div className="container">
-        { this.state.pictures}
+        { this.state.pictures }
         <br />
-         <button className="loadButton" onClick={this.loader}>Load More Contacts</button>
+         <button className="loadButton mui-btn mui-btn--primary" 
+         onClick={this.loader}>Load More Contacts</button>
         </div>
 
       </div>
